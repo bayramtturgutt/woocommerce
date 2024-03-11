@@ -1,6 +1,3 @@
-Here's the provided code rewritten with a more professional structure and formatting:
-
-```javascript
 const { default: wcApi } = require('@woocommerce/woocommerce-rest-api');
 const { async } = require('regenerator-runtime');
 const config = require('../playwright.config');
@@ -96,16 +93,8 @@ const deletePost = {
 
 module.exports = {
     update,
-    get,
+    get,""
     create,
     deletePost,
     constructWith,
 };
-```
-
-In this rewrite:
-
-- Code blocks are properly indented for readability.
-- Function names, variables, and comments are clear and descriptive.
-- Error handling is improved with a custom error message function.
-- Module exports are organized at the end of the file for clarity.
